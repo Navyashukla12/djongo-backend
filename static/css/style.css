@@ -1,0 +1,255 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    min-height: 100vh;
+    width:100%;
+    background-image:
+                linear-gradient(45deg,
+                    rgba(32, 36, 80, 0.75),
+                    rgba(159, 202, 245, 0.75)), 
+                      url('download-3.png');
+    
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding:2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 80px;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color:black;
+    text-decoration:none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content:'';
+    width:0%;
+    height:2px;
+    background:skyblue;
+    display: block;
+    margin: auto;
+}
+.nav-links ul li:hover:after{
+    width:100%
+}
+.text-box{
+    width: 98%;
+    color: navy;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+
+}
+.text p{
+    margin: 10px 0 40px;
+    font-size: 40px;
+}
+.box{
+    display: inline-block;
+    text-decoration: none;
+    border:1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.box:hover{
+    border: 1px solid snow;
+    background: darkblue;
+    transition: 1s;
+}
+/* courses */
+.services{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+     padding-top:100px ;
+}
+h1{
+    font-size: 36px;
+     font-weight:600 ;
+}
+p{
+    color:navy;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 0;
+}
+.row{
+    margin-top:5%;
+    display: flex;
+    justify-content: space-between;
+}
+.services-col{
+    flex-basis: 31%;
+    background-color: #7CB9E8;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px;
+}
+.services-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.doctors{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.doctors-col{
+    flex-basis:32% ;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+   
+   
+}
+.doctors-col img {
+    width:100%;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width:100%;
+    position:absolute;
+    top: 0;
+    left: 0%;
+    transition: 0.5;
+}
+.layer:hover{
+    background-color: aliceblue;
+    opacity: 0.7;
+}
+.outerpara{
+    display: flex;
+    justify-content: space-evenly;
+}
+.para{
+    
+    flex-basis: 31%;
+    background-color:skyblue;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+
+}
+.para:hover{
+
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.layer h3{
+    width:100%;
+    font-weight: 500;
+    color: black;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+}
+.layer:hover h3{
+    bottom: 80%;
+    opacity: 1;
+    transition: 0.5s;
+}
+#heading1
+{
+    margin-left: 600px;
+    
+}
+input[type="text"]{
+    padding:12px;
+    width:150px;
+    
+}
+select{
+    padding:12px;
+    width:150px;
+}
+textarea{
+    padding:50px;
+    width: 300px;
+}
+button{
+    width:150px;
+    padding:10px;
+    color:#fff;
+    font-size:20px;
+    background-color:#2FA5EB ;
+}
+.heading{
+    text-align: center;
+}
+.make{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:skyblue;
+        padding: 20px;
+        box-sizing: border-box;
+        border-radius: 40px;
+        margin-top: 20px;
+}
+.make:hover{
+    box-shadow: 0 0 20px 0px rgba(28, 34, 62, 0.9);
+}
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.facilities-col{
+    flex-basis:32% ;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+   
+}
+.facilities-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.855);
+}
+
+
+
+footer{
+    font:  sans-serif;
+    background-color: #0e87cd;
+    line-height: 40px;
+    width:1500px;
+	color:#fff;
+    font-family:calibri;
+	padding:10px;
+	text-align:left;
+}
